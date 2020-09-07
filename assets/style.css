@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    margin: 50px auto 0;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+#btnSi {
+    background: transparent;
+    border: 3px solid #F55064;
+    border-radius: 70px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+#btnNo {
+    background: transparent;
+    border: 3px solid #F55064;
+    border-radius: 70px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+#btnSi:hover {
+    background-color: #F55064;
+    color: white;
+}
+
+.back {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0vmax;
+    height: 0vmax;
+    transform: translate(-50%,-50%);
+    background: #F55064;
+    border-radius: 50%;
+    transition: all 1s ease;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+  }
+
+  .back.selected {
+    width: 200vmax;
+    height: 200vmax;
+    transition: all 1s ease;
+  }
